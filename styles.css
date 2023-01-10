@@ -1,7 +1,14 @@
 body {
 	background-color: #A3BB98;
 	font-family: "Raleway", sans-serif;
-	transform: scale(1.1);
+  height: 100%;
+  width: 100%;
+  transform: scale(1.1);
+}
+
+html {
+  height: 100%;
+  width: 100%;
 }
 
 .padding-bottom{
@@ -29,7 +36,7 @@ h1 {
 	left: 50%;
 	top: -80px;
 	width: 450px;
-  	height:100px;
+  height:100px;
 	transform: translateX(-50%);
 	background-color: #FFB100;
 	color: #fff;
@@ -43,8 +50,8 @@ h1 {
 
 .wrapper {
 	padding: 20px;
-  	text-align: center;
-  	margin: 20px;
+  text-align: center;
+  margin: 20px;
 }
 
 input,
@@ -81,3 +88,4 @@ input[type=number]::-webkit-outer-spin-button {
   -webkit-appearance: none;
   margin: 0;
 }
+
