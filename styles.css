@@ -20,6 +20,12 @@ html {
   background-color: #F0ECCF;
 }
 
+.float{
+	float: left;
+	padding:0 20px 0 20px;
+}
+
+
 .container {
 	width: 450px;
 	height: 650px;
